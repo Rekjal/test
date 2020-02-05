@@ -1,0 +1,30 @@
+challenges is taking a problem we want to solve or a concept we want to realize and turning it into a set of specific programming tasks. 
+
+ehavior-Driven Development (or BDD) and is used by developers across coding languages. In BDD, rather than thinking about the code first, the focus begins on the behaviors that we want to see in our final application. We identify what the program should do before determining how to make it do 
+
+Before we think about the programmatic elements, what should a leap year program do?We identify what the program should do before determining how to make it do it.
+
+Specifications or Specs: Examples of small, isolated behaviors a program should demonstrate, including input and output examples.
+
+the behavior that we'll need to write code to handle
+a sample of input that would demonstrate the behavior
+the expected output we'd get when the code is working correctly
+
+
+Identifying Behaviors (also known as "Specifications"). The first step in behavior-driven development is to identify small, individual behaviors the program should demonstrate. You don't have to think of all of them at the beginning. It's entirely alright to add to your list of behaviors/specs/specifications as you think of additional behaviours.
+
+Also, always begin with the simplest possible behavior )so columns are Behaviors, input, output)
+
+
+
+we're only writing just enough code to make our one, singular, most simple behavior pass. If we began checking what the number was divisible by, we'd actually be getting ahead of ourselves!
+
+This may feel like overkill for such a small program, but if you develop good BDD habits that allow you to identify simple, isolated behaviors now, you'll be able to tackle much more complex problems with much more ease and organization in the future. Remember, one behavior at a time, even if that behavior is very, very simple.
+
+ Although we know that years divisible by 100 and 400 will also need to be considered, we must focus on one spec at a time. Therefore, we are only going to add code to check whether the provided year is divisible by 4. We'll get to the rest later.
+
+Because we're testing manually in Intro to Programming, we had to begin with basic HTML and user interface logic to see our results. This is absolutely alright for now, just know that user interface logic should not be written until after business logic is complete in your level 2 course.
+
+
+Good example of read me is at https://github.com/GrapeSalad/scrabbleWordScoreCsharp
+
